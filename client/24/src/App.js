@@ -1,3 +1,7 @@
+import React from 'react';
+import './App.css';
+import NasaPhoto from "./Componets/NASA/NasaPhoto"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Location from './Components/geoLocate/Location';
 import Restaurants from './Components/Restaurants/Restaurants';
@@ -5,7 +9,8 @@ import Restaurants from './Components/Restaurants/Restaurants';
 function App() {
   return (
     <div className="App">
-        <Location />
+    <Location />
+        <NasaPhoto />
       <div></div>
         <hr/>
         <div>
@@ -13,7 +18,6 @@ function App() {
           <br/>
         </div>
         <Restaurants />
-      
     </div>
   );
 }
