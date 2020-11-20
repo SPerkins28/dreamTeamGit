@@ -52,10 +52,11 @@ const Weather = () => {
         
     return (
             <div className="location-box">
-                <h1 className="display-1 jumbotron">Find Current Weather Conditions</h1>
+                <h1>Current Weather Conditions</h1>
                 <div className="date">{dateBuilder(new Date())}</div>
-                <TempButton degreeType = {degreeType} setDegreeType = {setDegreeType}/>
+                <br/>
                 <Conditions weather={degreeType === 'metric' ? celsiusWeather : fahrenheitWeather} />
+                <TempButton degreeType = {degreeType} setDegreeType = {setDegreeType}/>
             </div>
         )
 }

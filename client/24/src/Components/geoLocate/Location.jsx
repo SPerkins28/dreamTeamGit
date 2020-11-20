@@ -9,7 +9,7 @@ const Location = () => {
     } = usePosition(watch);
     
     return (
-      <div className="location">
+      <div className="locationBox">
           <h3>You Be Here</h3>
         <h5 className="changePlease">latitude: {latitude}</h5>
         <h5 className="changePlease">longitude: {longitude}</h5>
