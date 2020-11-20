@@ -1,6 +1,8 @@
 import './App.css';
 import Location from './Components/geoLocate/Location';
 import Restaurants from './Components/Restaurants/Restaurants';
+import React from 'react';
+import Weather from './WeatherApi/Weather';
 
 function App() {
   return (
@@ -14,6 +16,10 @@ function App() {
         </div>
         <Restaurants />
       
+      x
+          
+        <Location />
+        <Weather />
     </div>
   );
 }
