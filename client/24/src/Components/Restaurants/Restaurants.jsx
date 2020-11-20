@@ -36,6 +36,8 @@ const Restaurants = () => {
         <Container>
             <Row>
                 <Col lg="12">
+                <h1>Restaurants Near You</h1>
+                <br/>
                         <Table dark hover borderless responsive>
                             <thead>
                                 <tr>

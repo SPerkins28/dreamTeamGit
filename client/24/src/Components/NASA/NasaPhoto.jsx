@@ -34,7 +34,7 @@ const Nasa = () => {
 
     return (
         <div className="container">
-            <h3>Satellite Picture</h3>
+            <h1>Satellite Picture</h1>
             <img alt='nasa sat' src={results.url} width='500px' height='500px'/>
         </div>
     )
