@@ -7,7 +7,7 @@ const Location = () => {
       latitude,
       longitude,
     } = usePosition(watch);
-
+    
     return (
       <div className="location">
           <h3>You Be Here</h3>
@@ -16,4 +16,5 @@ const Location = () => {
       </div>
     );
 };
+
   export default Location;
