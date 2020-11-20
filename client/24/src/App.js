@@ -6,7 +6,7 @@ import Weather from './WeatherApi/Weather';
 function App() {
   return (
     <div className="App">
-      
+      x
           
         <Location />
         <Weather />
