@@ -11,7 +11,7 @@ const TempButton = (props) => {
                 value="metric"
                 checked={props.degreeType === "metric"}
                 onChange={event => props.setDegreeType(event.target.value)} />
-                <label className="form-check-check" htmlFor="celsius">Celsius</label>
+                <label className="form-check-label" htmlFor="celsius">Celsius</label>
             </div>
             <div className="form-check form-check-inline">
                 <input className="form-check-input"

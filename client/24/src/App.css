@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   color: white;
-  background-color: cornflowerblue;
+  text-shadow: #01151E 0px 0px 3px,  #01151E 0px 0px 3px, #01151E 0px 0px 3px, #01151E 0px 0px 3px, #01151E 0px 0px 3px, #01151E 0px 0px 3px;
 }
 
 .App-link {
