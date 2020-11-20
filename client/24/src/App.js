@@ -1,3 +1,7 @@
+import React from 'react';
+import './App.css';
+import NasaPhoto from "./Componets/NASA/NasaPhoto"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Location from './Components/geoLocate/Location';
 import Restaurants from './Components/Restaurants/Restaurants';
@@ -7,19 +11,14 @@ import Weather from './WeatherApi/Weather';
 function App() {
   return (
     <div className="App">
-        <Location />
-      <div></div>
+    <Location />
+        <NasaPhoto />
         <hr/>
-        <div>
+        <Weather />
+        <hr/>
           <h1>Restaurants Near You</h1>
           <br/>
-        </div>
         <Restaurants />
-      
-      x
-          
-        <Location />
-        <Weather />
     </div>
   );
 }
