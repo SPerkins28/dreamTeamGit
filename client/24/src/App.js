@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-import Location from './geoLocate/Location';
+import Location from './Components/geoLocate/Location';
+import Restaurants from './Components/Restaurants/Restaurants';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
         <Location />
-      </header>
+      <div></div>
+        <hr/>
+        <div>
+          <h1>Restaurants Near You</h1>
+          <br/>
+        </div>
+        <Restaurants />
+      
     </div>
   );
 }
